@@ -2,4 +2,3 @@
 My first repository on GitHub for programming 
 
 I love computer!
-Wo ai Jisuanji!
