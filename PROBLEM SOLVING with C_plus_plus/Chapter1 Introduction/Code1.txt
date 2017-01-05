@@ -1,0 +1,360 @@
+/*#include<iostream>
+using namespace std;
+
+ int main() {
+int a;
+cout << "Hello" << endl;
+system("pause");
+}
+*/
+
+/*int main() {
+		int a, b, c;
+		cout << "please input a: ";
+		cin >> a;
+		cout << "please input b: ";
+		cin >> b;
+		c = a + b;
+		cout << "the sum of a and b is : " << c << endl;
+		system("pause");
+	}
+	*/
+
+/*int main() {
+	int a, b, c=0;
+	cout << "please input the number of a: ";
+	cin >> a;
+	for (b = 0; b <= a; b++) {
+		cout << "hello world."<< endl;
+		c++;
+	}
+	cout << c << endl;
+	system("pause");
+}
+*/
+
+/*int main() {
+	int a, b=0, c;
+	cout << "please input the number of a: ";
+	cin >> a;
+	while (a > 0) {
+		cout << "hello world." << endl;
+		a--;
+		b++;
+	}
+	cout << b << endl;
+	system("pause");
+}*/
+
+/*int main() {
+	int a, b = 0, c;
+	cout << "please input the number of a: ";
+	cin >> a;
+
+	do {
+		cout << "hello world." << endl;
+		a--;
+		b++;
+	} while (a > 0);
+	cout << b << endl;
+	system("pause");
+}*/
+
+/*
+// 1.8
+#include<iostream> 
+using namespace std;
+
+int main() {
+	int number_of_pods, peas_per_pod, total_peas;
+
+	cout << "Press return after entering a number. \n";
+	cout << "Enter the number of pods: \n";
+	cin >> number_of_pods;
+	cout << "Enter the number of peas in a pod:\n";
+	cin >> peas_per_pod;
+	total_peas = number_of_pods * peas_per_pod;
+	cout << "if you have ";
+	cout << number_of_pods;
+	cout << "pea pods\n";
+	cout << "and ";
+	cout << peas_per_pod;
+	cout << " peas in each pod, then\n";
+	cout << "you have ";
+	cout << total_peas;
+	cout << " peas in all the pods.\n";
+
+	system("pause");
+	return 0;
+}*/
+
+/*
+//1.9
+#include<iostream>
+using namespace std;
+
+int main() {
+	//????
+	//??1
+	//??2
+	//...
+	//??n
+
+	return 0;
+
+}*/
+
+/*
+//1.10
+#include<iostream>
+using namespace std;
+
+int main() {
+	cout << "Testing 1, 2, 3\n";
+	system("pause");
+	return 0;
+}*/
+
+
+//???? Chapter1
+
+//1.1
+/*#include<iostream>
+using namespace std;
+
+	int main() {
+		int number_of_pods, peas_per_pod, total_peas;
+
+		cout << "Press return after entering a number. \n";
+		cout << "Enter the number of pods: \n";
+		cin >> number_of_pods;
+		cout << "Enter the number of peas in a pod:\n";
+		cin >> peas_per_pod;
+		total_peas = number_of_pods * peas_per_pod;
+		cout << "if you have ";
+		cout << number_of_pods;
+		cout << "pea pods\n";
+		cout << "and ";
+		cout << peas_per_pod;
+		cout << " peas in each pod, then\n";
+		cout << "you have ";
+		cout << total_peas;
+		cout << " peas in all the pods.\n";
+
+		system("pause");
+		return 0;
+}*/
+
+
+//1.2
+/*#include<iostream>
+using namespace std;
+
+int main() {
+	int number_of_pods, peas_per_pod, total_peas;
+
+	cout << "Hello\n";
+	cout << "Press return after entering a number. \n";
+	cout << "Enter the number of pods: \n";
+	cin >> number_of_pods;
+	cout << "Enter the number of peas in a pod:\n";
+	cin >> peas_per_pod;
+	total_peas = number_of_pods * peas_per_pod;
+	cout << "if you have ";
+	cout << number_of_pods;
+	cout << " pea pods\n";
+	cout << "and ";
+	cout << peas_per_pod;
+	cout << " peas in each pod, then\n";
+	cout << "you have ";
+	cout << total_peas;
+	cout << " peas in all the pods.\n";
+	cout << "Good-Bye\n";
+
+	system("pause");
+	return 0;
+}*/
+
+
+//1.3
+/*#include<iostream>
+using namespace std;
+
+int main() {
+	int number_of_pods, peas_per_pod, total_peas;
+
+	cout << "Press return after entering a number. \n";
+	cout << "Enter the number of pods: \n";
+	cin >> number_of_pods;
+	cout << "Enter the number of peas in a pod:\n";
+	cin >> peas_per_pod;
+	total_peas = number_of_pods / peas_per_pod;
+	cout << "if you have ";
+	cout << number_of_pods;
+	cout << "pea pods\n";
+	cout << "and ";
+	cout << peas_per_pod;
+	cout << " peas in each pod, then\n";
+	cout << "you have ";
+	cout << total_peas;
+	cout << " peas in all the pods.\n";
+
+	system("pause");
+	return 0;
+}*/
+
+//1.4
+/*#include<iostream>
+using namespace std;
+
+int main() {
+	int number_of_pods, peas_per_pod, total_peas;
+
+	cout << "Press return after entering a number. \n";
+	cout << "Enter the number of pods: \n";
+	cin >> number_of_pods;
+	cout << "Enter the number of peas in a pod:\n";
+	cin >> peas_per_pod;
+	total_peas = number_of_pods + peas_per_pod;
+	cout << "if you have ";
+	cout << number_of_pods;
+	cout << " pea pods\n";
+	cout << "and ";
+	cout << peas_per_pod;
+	cout << " peas in each pod, then\n";
+	cout << "you have ";
+	cout << total_peas;
+	cout << " peas in all the pods.\n";
+
+	system("pause");
+	return 0;
+}*/
+
+//1.5
+/*#include<iostream>
+using namespace std;
+
+int main() {
+	int a,b,c,d;
+
+	cout << "Press return after entering a number. \n";
+	cout << "Enter the number of a:\n";
+	cin >> a;
+	cout << "Enter the number of b:\n";
+	cin >> b;
+	c = a * b;
+	d = a + b;
+
+	cout << "The sum of a and b is:";
+	cout << d << endl;
+	cout << "The product of a and b is:";
+	cout << c << endl;
+
+	system("pause");
+	return 0;
+}*/
+
+//1.6
+/*#include<iostream>
+using namespace std;
+
+ int main() {
+	int number_of_pods, peas_per_pod, total_peas;
+
+	cout << "Press return after entering a number. \n";
+	cout << "Enter the number of pods: \n";
+	cin >> number_of_pods;
+	cout << "Enter the number of peas in a pod:\n";
+	cin >> peas_per_pod;
+	total_peas = number_of_pods + peas_per_pod;
+	cout << "if you have ";
+	cout << number_of_pods;
+	cout << " pea pods\n";
+	cout << "and ";
+	cout << peas_per_pod;
+	cout << " peas in each pod, then\n";
+	cout << "you have ";
+	cout << total_peas;
+	cout << " peas in all the pods.\n";
+
+	system("pause");
+	return 0;
+}*/
+
+//1.7
+/*#include<iostream>
+using namespace std;
+
+int main() {
+	cout << "******************************************************\n\n";
+	cout << "        CCC                      SSSS          !!\n";
+	cout << "       C   C                    S    S         !!\n";
+	cout << "      C     C                  S               !!\n";
+	cout << "     C                          S              !!\n";
+	cout << "     C                           SSSS          !!\n";
+	cout << "     C                               S         !!\n";
+	cout << "      C                               S        !!\n";
+	cout << "       C    C                  S      S          \n";
+	cout << "        CCC                      SSSS          00\n\n";
+	cout << "******************************************************\n";
+	cout << "Computer Science is Cool Stuff!!!";
+	system("pause");
+	return 0;
+}*/
+
+//1.8
+/*#include<iostream>
+using namespace std;
+
+int main() {
+	int a, b, c, d;
+	cout << "Please input the number of 25 Cents:\n";
+	cin >> a;
+	cout << "Please input the number of 10 Cents:\n";
+	cin >> b;
+	cout << "Please input the number of 5 Cents:\n";
+	cin >> c;
+	d = 25 * a + 10 * b + 5 * c;
+	cout << "The total money is: ";
+	cout << d << endl;
+	system("pause");
+	return 0;
+}*/
+
+//1.9
+/*#include<iostream>
+using namespace std;
+
+int main() {
+	int a, b;
+	cout << "Please input the time of free fall:\n";
+	cin >> a;
+	b = (9.8*a*a) / 2;
+	cout << "The distance of free fall is:";
+	cout << b << endl;
+	system("pause");
+	return 0;
+
+}*/
+
+
+//1.10
+/*#include<iostream>
+using namespace std;
+
+int main() {
+	char x;
+	cout << "Please input the char C:\n";
+	cin >> x;
+	cout << " " << " " << x << " " << x << " " << x << endl;
+	cout << " " << x << "    " << x << endl;
+	cout << x << endl;
+	cout << x << endl;
+	cout << x << endl;
+	cout << x << endl;
+	cout << x << endl;
+	cout << " " << x << "    " << x << endl;
+	cout << " " << " " << x << " " << x << " " << x << endl;
+	system("pause");
+	return 0;
+}*/
