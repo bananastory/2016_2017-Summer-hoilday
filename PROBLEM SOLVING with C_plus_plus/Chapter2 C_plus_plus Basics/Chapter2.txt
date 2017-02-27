@@ -1,0 +1,1143 @@
+//figure 2.1
+/*#include<iostream>
+using namespace std;
+
+int main() {
+
+	int number_of_bars;
+	double one_weight, total_weight;
+
+	cout << "Enter the number of candy bars in a packages\n";
+	cout << "and the weight in ounces of one candy bar.\n";
+	cout << "Then press return.\n";
+	cin >> number_of_bars;
+	cin >> one_weight;
+
+	total_weight = one_weight*number_of_bars;
+
+	cout << number_of_bars << " candy bars\n";
+	cout << one_weight << " ounces each\n";
+	cout << "Total pweight is " << total_weight << " ounces.\n";
+
+	cout << "Try another brand.\n";
+	cout << "Enter the number of candy bars in a package\n";
+	cout << "and the weight in ounces of one candy bar.\n";
+	cout << "Then press return.\n";
+	cin >> number_of_bars;
+	cin >> one_weight;
+
+	total_weight = one_weight*number_of_bars;
+
+	cout << number_of_bars << " candy bars.\n";
+	cout << one_weight << " ounces each\n";
+	cout << "Total weight is" << total_weight << " ounces.\n";
+
+	cout << "Perhaps an apple would be healthier.\n";
+	system("pause");
+	return 0;
+}*/
+
+//testself6
+/*#include<iostream>
+using namespace std;
+
+int main() {
+	int one, two, three;
+	cout << one << two << three;
+	system("pause");
+	return 0;
+}*/
+
+//testself12
+/*#include<iostream>
+using namespace std;
+
+int main() {
+	int number_one, number_two, sum;
+	 
+	cout << "Enter the number_one:\n";
+	cin >> number_one;
+	cout << "Enter the number_two:\n";
+	cin >> number_two;
+
+	cout << "The number_one is:" << number_one << endl;
+	cout << "The number_two is:" << number_two << endl;
+	cout << "The sum of these two numbers is:" << (number_one + number_two) << endl;
+
+	cout << endl;
+	system("pause");
+	return 0;
+
+}*/
+
+//testself13
+/*#include<iostream>
+using namespace std;
+
+int main() {
+	cout << "\\n\n" << "\\t\n";
+	cout << endl;
+	system("pause");
+	return 0;
+}*/
+
+//testself14
+/*#include<iostream>
+using namespace std;
+
+int main() {
+	double one = 1.000, two = 1.414, three = 1.732, four = 2.000, five = 2.236;
+	cout.setf(ios::fixed);
+	cout.setf(ios::showpoint);
+	cout.precision(3);
+
+	cout << "N" << "\t" << "Square Root\n";
+	cout << "1" << "\t" << one<<endl;
+	cout << "2" << "\t" << two<<endl;
+	cout << "3" << "\t" << three<<endl;
+	cout << "4" << "\t" << four<<endl;
+	cout << "5" << "\t" << five<<endl;
+	cout << endl;
+
+	system("pause");
+	return 0;
+
+}*/
+
+
+//figure2.1
+/*#include<iostream>
+using namespace std;
+
+int main(){
+	char symbol1, symbol2, symbol3;
+
+	cout << "Enter two initials,without any periods:\n";
+	cin >> symbol1 >> symbol2;
+	cout << "The two initials are:\n";
+	cout << symbol1 << symbol2 << endl;
+	symbol3 = ' ';
+	cout << symbol1 << symbol3 << symbol2 << endl;
+	cout << "That is all.";
+	cout << endl;
+
+	system("pause");
+	
+	return 0;
+
+}*/
+
+//figure2.4
+/*#include<iostream>
+#include<string>
+
+using namespace std;
+
+int main() {
+	string middle_name, pet_name;
+	string alter_ego_name;
+	cout << "Enter your middle name and the name of your pet.\n";
+	cin >> middle_name;
+	cin >> pet_name;
+
+	alter_ego_name = pet_name + " " + middle_name;
+
+	cout << "The name of your alter ego is:";
+	cout << alter_ego_name << "." << endl;
+	cout << endl;
+
+	system("pause");
+
+	return 0;
+}*/
+
+//testself18
+/*#include<iostream>
+using namespace std;
+
+int main() {
+	int number_one, number_two, number_quotient, number_remainder;
+	cout << "Enter the number_one and number_two:\n";
+	cin >> number_one;
+	cin >> number_two;
+	number_quotient = number_one / number_two;
+	number_remainder = number_one%number_two;
+	cout << "The number_one is: " << number_one << endl;
+	cout << "The number_two is: " << number_two << endl;
+	cout << "The quotient of number_one and number_two is:" << number_quotient << endl;
+	cout << "The remainder of number_one and number_two is:" << number_remainder << endl;
+
+	system("pause");
+	return 0;
+}*/
+
+//testself19
+/*#include<iostream>
+using namespace std;
+
+int main() {
+	double c = 20;
+	double f;
+	f = (9.0 / 5.0)*c + 32.0;
+
+	cout << f;
+	cout << endl;
+	system("pause");
+	return 0;
+
+}*/
+
+//figure2.7
+/*#include<iostream>
+using namespace std;
+int main() {
+	int hours;
+	double gross_pay, rate;
+	cout << "Enter the hourly rate of pay: $";
+	cin >> rate;
+	cout << "Enter the number of hours worked,\n" << "rounded to a whole of hours: ";
+	cin >> hours;
+
+	if (hours > 40)
+		gross_pay = rate * 40 + 1.5*rate*(hours - 40);
+	else
+		gross_pay = rate*hours;
+	cout.setf(ios::fixed);
+	cout.setf(ios::showpoint);
+	cout.precision(2);
+	cout << "Hours= " << hours << endl;
+	cout << "Hourly pay rate = $" << rate << endl;
+	cout << "Gross pay= $" << gross_pay << endl;
+
+	cout << endl;
+	system("pause");
+	return 0;
+
+}*/
+
+//testself21
+/*#include<iostream>
+using namespace std;
+
+int main() {
+	int score;
+	cout << "Enter thr number of score:\n";
+	cin >> score;
+	cout<<"The score is:"<< score << endl;
+	if (score > 100) {
+		cout << "High\n";
+	}
+	else {
+		cout << "Low\n";
+	}
+	cout << endl;
+	system("pause");
+
+}*/
+
+//testself22
+/*#include<iostream>
+using namespace std;
+
+int main() {
+	double savings, expenses;
+	cout << "Enter the savings and expenses: \n";
+	cin >> savings >> expenses;
+	cout << "The savings is:" << savings << endl;
+	cout << "The expenses is:" << expenses << endl;
+
+	if (savings >= expenses) {
+		savings = savings - expenses;
+		expenses = 0;
+		cout << "Solvent\n";
+	}
+	else {
+		cout << "Bankrupt\n";
+	}
+	cout << "The new savings is:" << savings << endl;
+	cout << "The new expenses is:" << expenses << endl;
+	cout << endl;
+	system("pause");
+	return 0;
+}*/
+
+//testself23
+/*#include<iostream>
+using namespace std;
+
+int main() {
+	int exam, programs_done;
+	cout << "Enter the number of exam and program_done:\n";
+	cin >> exam;
+	cin >> programs_done;
+	cout << "The exam is:" << exam << endl;
+	cout << "The programs_done is:" << programs_done << endl;
+
+	if ((exam >= 60) && (programs_done >= 10)) {
+		cout << "Passed\n";
+	}
+	else {
+		cout << "Failed\n";
+	}
+	system("pause");
+	return 0;
+}*/
+
+//testself24
+/*#include<iostream>
+using namespace std;
+ 
+int main() {
+	int temperature, pressure;
+	cout << "Enter the number of temperature and pressure:\n";
+	cin >> temperature;
+	cin >> pressure;
+
+	cout << "The temperature is:" << temperature << endl;
+	cout << "The pressure is:" << pressure << endl;
+
+	if ((temperature >= 100) || (pressure >= 200)) {
+		cout << "Warning\n";
+	}
+	else {
+		cout << "OK\n";
+	}
+	
+	system("pause");
+	return 0;
+}*/
+
+//figure2.11
+/*#include<iostream>
+using namespace std;
+
+int main() {
+	int count_down;
+
+	cout << "How many greetings do you want? ";
+	cin >> count_down;
+
+	while (count_down > 0) {
+		cout << "Hello ";
+		count_down = count_down - 1;
+	}
+
+	cout << endl;
+	cout << "That is all!\n";
+
+	system("pause");
+	return 0;
+
+}*/
+
+//figure2.14
+/*#include<iostream>
+using namespace std;
+int main() {
+	char ans;
+
+	do {
+		cout << "Hello\n";
+		cout << "Do you want another greeting?\n" << "Press y for yes, n for no,\n" << "and then press return:";
+		cin >> ans;
+	} while ((ans == 'y') || (ans == 'Y'));
+
+	cout << "Good-bye\n";
+
+	system("pause");
+	return 0;
+}
+*/
+
+/*#include<iostream>
+using namespace std;
+int main() {
+	int n = 1, m = 7;
+	n++;
+	cout << "The value of n is changed to " << n << endl;
+	m--;
+	cout << "The value of m is changed to " << m << endl;
+	
+	system("pause");
+}
+*/
+
+//figure2.15
+/*#include<iostream>
+using namespace std;
+int main() {
+	double balance = 50.00;
+	int count = 0;
+	
+	cout << "This program tells you how long it take\n"
+		<< "to accumlate a debt of $100, strating with\n"
+		<< "an initial balance of $50 owed.\n"
+		<< "The interest rate is 2% per month.\n";
+
+	while (balance < 100.00) {
+		balance = balance + 0.02*balance;
+		count++;
+
+	}
+
+	cout << "After " << count << " months,\n";
+	cout.setf(ios::fixed);
+	cout.setf(ios::showpoint);
+	cout.precision(2);
+	cout << "your balance due will be $" << balance << endl;
+	
+	system("pause");
+	return 0;
+
+}
+*/
+
+//figure2.16
+//filename:health.cpp
+//author:Dylan Lang
+//email:fullartonstory@gmail.com
+//title:2
+//explaination:
+//modify:2/8/2017
+
+/*#include<iostream>
+using namespace std;
+
+int main() {
+	const double NORMAL = 98.6;
+	double temperature;
+	
+	cout << "Enter your temperure:";
+	cin >> temperature;
+	
+	if (temperature > NORMAL)
+	{
+		cout << "You have a fever.\n";
+		cout << "Drink lots of liquids and get to bed/\n";
+	}
+	else
+	{
+		cout << "You don't have a fever.\n";
+		cout << "Go study.\n";
+	}
+		
+	cout << endl;
+	system("pause");
+	return 0;
+}
+*/
+
+/*#include<iostream>
+using namespace std;
+
+int main() {
+	double gallon, liter;
+	cout << "please enter the number of gallon:";
+	cin >> gallon;
+	
+	liter = gallon*3.78533;
+	cout << "There are " << liter << " liters in this program." << endl;
+
+	system("pause");
+	return 0;
+}*/
+
+/*#include<iostream>
+using namespace std;
+
+int main() {
+	cout << endl << "\t";
+	system("pause");
+	return 0;
+
+}*/
+
+//2.1
+/*#include<iostream>
+using namespace std;
+
+int main() {
+		char repeat;
+	do{
+		double metric_ton, ounce,number_boxes(0),each_box_weight,now_total_weight(0);
+	
+		cout.setf(ios::fixed);
+		cout.setf(ios::showpoint);
+		cout.precision(6);
+
+		cout << "Enter the weight of cereal:";
+		cin >> ounce;
+		each_box_weight = ounce;
+		metric_ton = ounce/35273.92;
+
+		while (now_total_weight < 35273.92) {
+			now_total_weight = now_total_weight + each_box_weight;
+			number_boxes++;
+		}
+		
+		cout << "The each weight of cereal you input is:" << each_box_weight << " ounce.\n";
+		cout << "The each weight of cereal you input is:" << metric_ton << " ton.\n";
+		cout << "For reach one ton, there are " << number_boxes << " boxes will be need.\n";
+		
+		cout << "Do you want to do it again? Y for yes, N for no.\n"
+			<< "Enter the choice:";
+		cin >> repeat;
+	} while (repeat == 'Y' || repeat == 'y');
+
+	system("pause");
+}*/
+
+//2.2
+/*#include<iostream>
+using namespace std;
+const double basic_number = 0.001;
+const double weight_bottle = 650;
+
+int main() {
+	char choice;
+
+	do {
+		double weight_manmade_sweetener_mice, weight_mice, weight_dieter,weight_manmade_sweetener_dieter,weight_softdrinking_dieter;
+		double now_total_sweetener(0);
+		int bottles(0);
+
+		cout.setf(ios::fixed);
+		cout.setf(ios::showpoint);
+		cout.precision(5);
+		
+		cout << "Enter the weight of man made sweetener for mice dying:";
+		cin >> weight_manmade_sweetener_mice;
+		cout << "Enter the weight of nice:";
+		cin >> weight_mice;
+		cout << "Enter the weight of dieter:";
+		cin >> weight_dieter;
+
+		weight_manmade_sweetener_dieter = weight_manmade_sweetener_mice*(weight_dieter / weight_mice);
+		weight_softdrinking_dieter = weight_manmade_sweetener_dieter / basic_number;
+		
+		while (now_total_sweetener < weight_softdrinking_dieter) {
+			now_total_sweetener = now_total_sweetener + weight_bottle;
+			bottles++;
+		}
+		
+		cout << "the weight of man made sweetener for mice dying is：" << weight_manmade_sweetener_mice << " g.\n";
+		cout << "the weight of nice is:" << weight_mice << " g.\n";
+		cout << "the weight of dieter is:" << weight_dieter << " g.\n";
+		cout << "As one person, the weight of softdrinking you can drink is:" << weight_softdrinking_dieter << " g.\n";
+		cout << "As one person, you can drink this softdrink " << bottles << " bottles.\n";
+
+		cout << "Do you want another greeting?\n";
+		cout << "Y for yes, N for no.\n";
+
+		cin >> choice;
+	} while (choice == 'y' || choice == 'Y');
+
+}*/
+
+// 2.3
+/*#include<iostream>
+using namespace std;
+const double basic_number = 0.076;
+
+int main() {
+	char choice;
+
+	do {
+		double total_last_year_salary, new_year_salary, new_month_salary, replacement_cash_number;
+		
+		cout.setf(ios::fixed);
+		cout.setf(ios::showpoint);
+		cout.precision(5);
+
+		cout << "Enter the total last year of salary:";
+		cin >> total_last_year_salary;
+		
+		new_year_salary = total_last_year_salary*(1 + basic_number);
+		new_month_salary = new_year_salary / 12;
+		replacement_cash_number = new_year_salary / 2;
+		
+		cout << "the total last year salary is:" << total_last_year_salary << "$.\n";
+		cout << "the new yaer salary is:" << new_year_salary << "$.\n";
+		cout << "the new month salary is:" << new_month_salary << "$.\n";
+		cout << "the replacement cash number is:" << replacement_cash_number << "$.\n";
+
+		cout << "Do you want another greeting?\n";
+		cout << "Y for yes, and N for no\n";
+		cout << "Enter your choice:";
+		cin >> choice;
+
+	} while (choice == 'y' || choice == 'Y');
+}*/
+
+//2.4
+/*#include<iostream>
+using namespace std;
+const double basic_number = 0.076;
+
+int main() {
+	char choice;
+
+	do {
+		double total_last_year_salary, new_year_salary, new_month_salary, replacement_cash_number;
+		double replacement_cash_month;
+			
+		cout.setf(ios::fixed);
+		cout.setf(ios::showpoint);
+		cout.precision(5);
+
+		cout << "Enter the total last year of salary:";
+		cin >> total_last_year_salary;
+
+		cout << "Enter the replacement of month:";
+		cin >> replacement_cash_month;
+
+		new_year_salary = total_last_year_salary*(1 + basic_number);
+		new_month_salary = new_year_salary / 12;
+		replacement_cash_number = (new_year_salary / 12)*replacement_cash_month;
+
+		cout << "the total last year salary is:" << total_last_year_salary << "$.\n";
+		cout << "the new yaer salary is:" << new_year_salary << "$.\n";
+		cout << "the new month salary is:" << new_month_salary << "$.\n";
+		cout << "the replacement cash number is:" << replacement_cash_number << "$.\n";
+
+		cout << "Do you want another greeting?\n";
+		cout << "Y for yes, and N for no\n";
+		cout << "Enter your choice:";
+		cin >> choice;
+
+	} while (choice == 'y' || choice == 'Y');
+}*/
+
+//2.5 discount instalment loan
+/*#include<iostream>
+using namespace std;
+
+int main() {
+	char choice;
+
+	do {
+		cout.setf(ios::fixed);
+		cout.setf(ios::showpoint);
+		cout.precision(2);
+
+		double actually_need_cash, interest_rate, loan_time_limit,actually_loan_cash;
+
+		cout << "Enter thr actually need of cash:";
+		cin >> actually_need_cash;
+		cout << "Enter the interest rate:";
+		cin >> interest_rate;
+		cout << "Enter the loan time limit in month:";
+		cin >> loan_time_limit;
+
+		actually_loan_cash = actually_need_cash / (1.0 - interest_rate*(loan_time_limit/12));
+
+		cout << "the actually need of cash is:" << actually_need_cash << "$.\n";
+		cout << "the interest rate is:" << interest_rate << endl;
+		cout << "the loan time limit is:" << loan_time_limit << " months.\n";
+		cout << "the final actually loan of cash is:" << actually_loan_cash << "$.\n";
+
+		cout << "Do you want to greeting again?\n";
+		cout << "Y for yes, and N for no.\n";
+		cout << "Enter you choice:";
+		cin >> choice;
+
+	} while (choice == 'y' || choice == 'Y');
+
+}*/
+
+//2.6
+/*#include<iostream>
+using namespace std;
+
+int main() {
+	char choice;
+	int limit_meeting_room, actually_join_number_people;
+	
+	do {
+		cout << "Enther the limition of meeting room:";
+		cin >> limit_meeting_room;
+		cout << "Enter the actually joining number of people:";
+		cin >> actually_join_number_people;
+
+		if (actually_join_number_people <= limit_meeting_room) {
+			
+			cout << "Yep, you can have meeting here!, and this meeting room is still available for " << limit_meeting_room - actually_join_number_people
+				<< " people.\n";
+		}
+		else {
+			cout << "Yep no, you cannot have meeting here!:(, and there are " << actually_join_number_people - limit_meeting_room
+				<< " people have to leave this meeting room.\n";
+		}
+
+		cout << "Do you want to greeting again?\n";
+		cout << "Y for yes, and N for no.\n";
+		cout << "Enter you choice:";
+		cin >> choice;
+
+	} while (choice == 'y' || choice == 'Y');
+}*/
+
+//2.7
+/*#include<iostream>
+using namespace std;
+const double normal_time_salary = 16.78;
+const double over_time_salary = 16.78*1.5;
+const int normal_working_time = 40;
+const double addtion_medical_insurance_premium = 35;
+
+int main() {
+	char choice;
+	
+	do {
+		cout.setf(ios::fixed);
+		cout.setf(ios::showpoint);
+		cout.precision(2);
+
+		int working_time, family_number;
+		double preparatory_salary, final_actually_salary;
+		double social_insruance_rax, united_states_federal_tax, US_state_tax, trade_union_dues;
+		
+		cout << "Enter the working time in one week in hour:";
+		cin >> working_time;
+		cout << "Enter the number of family:";
+		cin >> family_number;
+
+		if (family_number < 3) {
+			if (working_time <= normal_working_time) {
+				preparatory_salary = working_time*normal_time_salary;
+				social_insruance_rax = preparatory_salary*0.06;
+				united_states_federal_tax = preparatory_salary*0.14;
+				US_state_tax = preparatory_salary*0.05;
+				trade_union_dues = preparatory_salary*0.10;
+
+				final_actually_salary = preparatory_salary - social_insruance_rax - united_states_federal_tax - US_state_tax - trade_union_dues;
+			}
+			else {
+				preparatory_salary = normal_working_time*normal_time_salary + (working_time - normal_working_time)*over_time_salary;
+				preparatory_salary = working_time*normal_time_salary;
+				social_insruance_rax = preparatory_salary*0.06;
+				united_states_federal_tax = preparatory_salary*0.14;
+				US_state_tax = preparatory_salary*0.05;
+				trade_union_dues = preparatory_salary*0.10;
+
+				final_actually_salary = preparatory_salary - social_insruance_rax - united_states_federal_tax - US_state_tax - trade_union_dues;
+			}
+		}
+		else {
+			if (working_time <= normal_working_time) {
+				preparatory_salary = working_time*normal_time_salary;
+				social_insruance_rax = preparatory_salary*0.06;
+				united_states_federal_tax = preparatory_salary*0.14;
+				US_state_tax = preparatory_salary*0.05;
+				trade_union_dues = preparatory_salary*0.10;
+
+				final_actually_salary = preparatory_salary - social_insruance_rax - united_states_federal_tax - US_state_tax - trade_union_dues-addtion_medical_insurance_premium;
+
+			}
+			else {
+				preparatory_salary = normal_working_time*normal_time_salary + (working_time - normal_working_time)*over_time_salary;
+				preparatory_salary = working_time*normal_time_salary;
+				social_insruance_rax = preparatory_salary*0.06;
+				united_states_federal_tax = preparatory_salary*0.14;
+				US_state_tax = preparatory_salary*0.05;
+				trade_union_dues = preparatory_salary*0.10;
+
+				final_actually_salary = preparatory_salary - social_insruance_rax - united_states_federal_tax - US_state_tax - trade_union_dues-addtion_medical_insurance_premium;
+			}
+
+		}
+
+		cout << "the preparatory salary is:" << preparatory_salary << "$.\n";
+		cout << "the social insruance rax is:" << social_insruance_rax << "$.\n";
+		cout << "the united insruance rax is:" << united_states_federal_tax << "$.\n";
+		cout << "the US state tax is:" << US_state_tax << "$.\n";
+		cout << "the trade union dues is:" << trade_union_dues << "$.\n";
+		cout << "the final actually salary is:" << final_actually_salary << "$.\n";
+
+		cout << "Do you wannt to greeting again?\n";
+		cout << "Y for yes, and N for no.\n";
+		cout << "Enter you choice:";
+		cin >> choice;
+	} while (choice == 'y' || choice == 'Y');
+}*/
+
+//2.8
+/*#include<iostream>
+using namespace std;
+
+int main() {
+	double values_cost, number_of_year, inflation_rate;
+
+	cout.setf(ios::fixed);
+	cout.setf(ios::showpoint);
+	cout.precision(2);
+
+	cout << "Enter the values of cost:";
+	cin >> values_cost;
+	cout << "Enter the number of year:";
+	cin >> number_of_year;
+	cout << "Enter the inflation rate in %:";
+	cin >> inflation_rate;
+
+	for (int number_cycle = 0; number_cycle < number_of_year; number_cycle++) {
+		values_cost = (1.0 + inflation_rate/100)*values_cost;
+		cout << "The " << number_cycle + 1 << " year cost " << values_cost << "$.\n";
+	}
+
+	cout << "the lastest values of cost is:" << values_cost << "$.\n";
+	cout << "the inflation_rate is:" << inflation_rate << "%.\n";
+	cout << "the number of year is:" << number_of_year << " years.\n";
+
+	system("pause");
+	return 0;
+}*/
+
+//2.9
+/*#include<iostream>
+using namespace std;
+
+const double monthly_payment = 50;
+const double per_month_interest_rate = 0.015;
+
+int main() {
+	double debt(1000), number_of_month(0), total_amount_of_interest(0);
+	double monthly_interest(0), monthly_debt(0), remain_debt(0);
+
+	cout.setf(ios::fixed);
+	cout.setf(ios::showpoint);
+	cout.precision(2);
+
+	cout << "Hello, this programing is used for calculating the total number of month of pay back debt :)\n\n";
+
+	while (debt > 0) {
+		monthly_interest = debt*per_month_interest_rate;
+		monthly_debt = monthly_payment - monthly_interest;
+		remain_debt = debt - monthly_debt;
+		debt = remain_debt;
+		total_amount_of_interest += monthly_interest;
+
+		cout << "The monthly interest of this month is " << monthly_interest << " $\n";
+		cout << "The monthly debt of this month is " << monthly_debt << " $\n";
+		cout << "There are still " << remain_debt << "$ need to be paid.\n\n";
+		number_of_month++;
+	}
+	
+	cout << "For pay back this debt, you need at last " << number_of_month << " months.\n";
+	cout << "The total amount of interest is " << total_amount_of_interest << "$.\n";
+
+	system("pause");
+	return 0;
+}*/
+
+//2.10
+/*#include<iostream>
+using namespace std;
+
+const int number_of_input = 10;
+
+int main() {
+	int sum_of_negative(0), sum_of_positive(0);
+
+	cout.setf(ios::fixed);
+	cout.setf(ios::showpoint);
+	cout.precision(2);
+
+	for (int count = 0; count < number_of_input; count++) {
+		int new_number;
+
+		cout << "Enter one number plz :).\n";
+		cin >> new_number;
+
+		if (new_number > 0) {
+			sum_of_positive += new_number;
+		}
+		else {
+			sum_of_negative += new_number;
+		}
+	}
+	
+	cout << "The sum of positive number is " << sum_of_positive << ".\n";
+	cout << "The sum of negative number is " << sum_of_negative << ".\n";
+
+	system("pause");
+	return 0;
+
+}*/
+
+//2.11
+/*#include<iostream>
+using namespace std;
+
+const int number_of_input = 10;
+
+int main() {
+double sum_of_negative(0), sum_of_positive(0), sum_of_number;
+double average_of_negative(0), average_of_positive(0), average_of_number(0);
+double count_negative(0), count_positive(0);
+cout.setf(ios::fixed);
+cout.setf(ios::showpoint);
+cout.precision(2);
+
+for (int count = 0; count < number_of_input; count++) {
+int new_number;
+
+cout << "Enter one number plz :).\n";
+cin >> new_number;
+
+if (new_number > 0) {
+sum_of_positive += new_number;
+count_positive++;
+}
+else {
+sum_of_negative += new_number;
+count_negative++;
+}
+}
+
+average_of_positive = sum_of_positive / count_positive;
+average_of_negative = sum_of_negative / count_negative;
+sum_of_number = sum_of_negative + sum_of_positive;
+average_of_number = sum_of_number / number_of_input;
+
+cout << "The sum of positive number is " << sum_of_positive << ".\n";
+cout << "The average of positive number is " << average_of_positive << ".\n";
+cout << "The sum of negative number is " << sum_of_negative << ".\n";
+cout << "The average of negative number is " << average_of_negative << ".\n";
+cout << "The sum of number is " << sum_of_number << ".\n";
+cout << "The average of number " << average_of_number << ".\n";
+
+system("pause");
+return 0;
+
+}*/
+
+//2.12
+/*#include<iostream>
+using namespace std;
+
+int main() {
+	double n(0), r(0), guess1(0), guess2(0);
+
+	cout.setf(ios::fixed);
+	cout.setf(ios::showpoint);
+	cout.precision(2);
+
+	cout << "Enter n: :)" << endl;
+	cin >> n;
+	guess1 = n / 2;
+	guess2 = n / 2;
+
+	do {
+		guess1 = guess2;
+		r = n / guess1;
+		guess2 = (guess1 + r) / 2;
+	} while ((1 - (guess2 / guess1)) > 0.01);
+
+	cout << "The square root of "<<n<<" is " << guess2 << endl;
+
+	system("pause");
+	return 0;
+
+}*/
+
+//2.13
+/*#include<iostream>
+using namespace std;
+const double number_of_min_hour = 60;
+const double number_of_sec_min = 60;
+
+int  main() {
+	double speed_mph(9.5), speed_pace(1);
+	double min(0), sec(0);
+	char choice;
+
+	do {
+		cout.setf(ios::fixed);
+		cout.setf(ios::showpoint);
+		cout.precision(2);
+
+		cout << "Enter the space in mph :)\n";
+		cin >> speed_mph;
+
+		speed_pace = number_of_min_hour / speed_mph;
+		min = static_cast<int>(speed_pace);
+		sec = (speed_pace - min)*number_of_sec_min;
+
+		cout << "The time for finish one mp is " << min << " mins " << sec << " secs.\n";
+		cout << "Do you wannt to greeting again?\n";
+		cout << "Y for yes, and N for no.\n";
+		cout << "Enter you choice:";
+		cin >> choice;
+	} while (choice == 'Y' || choice == 'y');
+	
+	system("pause");
+	return 0;
+	
+}*/
+
+//2.14
+/*#include<iostream>
+#include<string>
+using namespace std;
+
+int main() {
+
+	string teacher_name, user_name, food_name, adjective, colour, animal;
+	int number;
+
+	cout << "Enter your teacher's last name or first name:\n";
+	cin >> teacher_name;
+	cout << "Enter your last name or first name:\n";
+	cin >> user_name;
+	cout << "Enter a food name:\n";
+	cin >> food_name;
+	cout << "Enter a number between 100 and 120:\n";
+	cin >> number;
+	cout << "Enter a adjective:\n";
+	cin >> adjective;
+	cout << "Enter a colour:\n";
+	cin >> colour;
+	cout << "Enter a animal:\n";
+	cin >> animal;
+
+	cout << "Dear Instructor," << teacher_name << "\n";
+	cout << "I am sorry that i am unable to turn in my homework at this time. First, i ate rotten " << food_name << ", which made me turn " << colour << " and extremely ill. I came down with a fever of " << number
+		<< ". Next, my " << adjective << " pet " << animal << " must have smelled the remains of the " << food_name << " on my homework, because he ate it. I am cuttrently reweiting my homework and hope you will accept it late.\nSincerely, " << user_name << endl;
+
+	system("pause");
+	return 0;
+
+}*/
+
+//2.15
+/*#include<iostream>
+using namespace std;
+
+int main() {
+	double number_one(0), number_two(0);
+
+	cout << "Enter two positive number:";
+	cin >> number_one;
+	cin >> number_two;
+
+	if (number_one <= number_two) {
+
+		for (number_one; number_one <= number_two; number_one++) {
+			cout << "At " << number_one << " degrees Celsius the velocity of sound is " <<
+				331.3 + 0.61*number_one << endl;
+		}
+	}
+	else{
+		for (number_two; number_two <= number_one; number_two++) {
+			cout << "At " << number_two << " degrees Celsius the veocity of sound is " <<
+				331.3 + 0.61*number_two << endl;
+		}
+	}
+
+	system("pause");
+	return 0;
+}*/
+
+//2.16
+/*#include<iostream>
+using namespace std;
+
+int main() {
+	
+	cout.setf(ios::fixed);
+	cout.setf(ios:showpoint);
+	cout.precision(2);
+
+	double radius, vm;
+	cout << "Enter the ball radius:" << endl;
+	cin >> radius;
+	vm = (4.0 / 3.0)*3.1415*radius*radius*radius;
+	cout << "The vm is: " << vm << endl;
+
+	system("pause");
+	return 0;
+}*/
+
+//2.17
+/*#include<iostream>
+using namespace std;
+
+const double tran_between_radius_gallon = 7.48;
+
+int main() {
+
+	cout.setf(ios::fixed);
+	cout.setf(ios::showpoint);
+	cout.precision(2);
+
+	double radius(0), depth(0);
+	cout << "Enter the radius and depth of well:";
+	cin >> radius;
+	cin >> depth;
+
+	cout << "The well can store " << 3.14 * tran_between_radius_gallon*((radius/12)*(radius/12)*depth) << " gallons water :).\n";
+
+	system("pause");
+	return 0;
+}*/
+
+//2.18
+/*#include<iostream>
+using namespace std;
+
+const double typical_chocolate_bar_calories = 230;
+
+int main() {
+	double weight_in_pound(0), height_in_inches(0), age_in_year(0);
+	char sex;
+
+	cout << "Enter the sex, M for male and F for women:";
+	cin >> sex;
+	cout << "Enter the weight in pound:";
+	cin >> weight_in_pound;
+	cout << "Enter the height in inches:";
+	cin >> height_in_inches;
+	cout << "Enter the age in year:";
+	cin >> age_in_year;
+
+	if (sex == 'M' || sex == 'm') {
+		cout << "for keeping weight, you need to eat " << (66 + (6.3*weight_in_pound) + (12.9*height_in_inches) - (6.8*age_in_year)) / 230 << " chocolate bar.\n";
+	}
+	else {
+		cout << "for keeping weight, you need to eat " << (655 + (4.3*weight_in_pound) + (4.7*height_in_inches) - (4.7*age_in_year)) / 230 << " chocolate bar.\n";
+	}
+
+	system("pause");
+	return 0;
+}*/
+
+//2.19
+/*#include<iostream>
+using namespace std;
+
+int main() {
+	int N;
+	double score_received_for_exercise(0), total_points_possible_for_exercise(0);
+	double score(0), total_score(0);
+
+	cout.setf(ios::fixed);
+	cout.setf(ios::showpoint);
+	cout.precision(2);
+
+	cout << "How many exercise to input?";
+	cin >> N;
+
+	for (int count = 0; count < N; count++) {
+		cout << "Score received for exercise " << count + 1 << ": ";
+		cin >> score_received_for_exercise;
+		cout << "Total points possible for exercise " << count + 1 << ": ";
+		cin >> total_points_possible_for_exercise;
+		score += score_received_for_exercise;
+		total_score += total_points_possible_for_exercise;
+	}
+
+	cout << "Your total is " << score << " out of " << total_score << ", or " << (score / total_score) * 100 << "%.\n";
+
+	system("pause");
+	return 0;
+}*/
